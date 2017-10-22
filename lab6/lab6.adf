@@ -1,0 +1,71 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=lab6
+
+[Library]
+lab6=.\lab6.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+lab6=.
+Active_lib=
+
+[Groups]
+TestBench=1
+
+[Files]
+/RegN.vhd=-1
+/RegFile.vhd=-1
+/RAM.vhd=-1
+/LIFO.vhd=-1
+/RAM_Ham.vhd=-1
+TestBench/regfile_TB.vhd=-1
+TestBench/regfile_TB_runtest.do=-1
+TestBench/ram_TB.vhd=-1
+TestBench/ram_TB_runtest.do=-1
+TestBench/lifo_TB.vhd=-1
+TestBench/lifo_TB_runtest.do=-1
+TestBench/ram_ham_TB.vhd=-1
+TestBench/ram_ham_TB_runtest.do=-1
+
+[Files.Data]
+.\src\RegN.vhd=VHDL Source Code
+.\src\RegFile.vhd=VHDL Source Code
+.\src\RAM.vhd=VHDL Source Code
+.\src\LIFO.vhd=VHDL Source Code
+.\src\RAM_Ham.vhd=VHDL Source Code
+.\src\TestBench\regfile_TB.vhd=VHDL Test Bench
+.\src\TestBench\regfile_TB_runtest.do=Macro
+.\src\TestBench\ram_TB.vhd=VHDL Test Bench
+.\src\TestBench\ram_TB_runtest.do=Macro
+.\src\TestBench\lifo_TB.vhd=VHDL Test Bench
+.\src\TestBench\lifo_TB_runtest.do=Macro
+.\src\TestBench\ram_ham_TB.vhd=VHDL Test Bench
+.\src\TestBench\ram_ham_TB_runtest.do=Macro
+
